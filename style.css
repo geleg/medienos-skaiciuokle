@@ -1,0 +1,99 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    color: #1D3557;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    background: hsla(212, 35%, 58%, 1);
+
+background: linear-gradient(90deg, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6D90B9", endColorstr="#BBC7DC", GradientType=1 );
+}
+
+div {
+    background-color: #F1FAEE;
+
+}
+
+h1 {
+    font-weight: 800;
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+}
+
+.block-wrapper {
+    border: 10px solid #457B9D;
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.02);
+}
+
+.header {
+
+    border: 10px solid #457B9D;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 90px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.02);
+    text-align: center;
+    background-image: url(wood.jpg);
+}
+
+.input-wrapper {
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 3px 0;
+}
+
+input:hover {
+    background-color: #eeeeee;
+
+}
+.input-wrapper>* {
+    display: block;
+}
+
+.info-wrapper .input-wrapper span.error:not(.show) {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(177, 203, 200);
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+.error {
+    color: red;
+}

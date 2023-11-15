@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medienos skaičiuoklė</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="header block-wrapper"><h1>Medienos skaičiuoklė</h1></div>
+    <div class="info-wrapper block-wrapper">
+        <h2>Reikalinga infomacija</h2>
+        <div class="input-wrapper">
+            <label for="lentosIlgis">Lentos ilgis (cm):</label>
+            <input type="number" min="1" step="1" value="0" id="lentosIlgis">
+            <span class="error">Lentos ilgis negali būti lygus nuliui arba neigiamas.</span>
+        </div>
+        <div class="input-wrapper">
+            <label for="lentosPlotis">Lentos plotis (cm):</label>
+            <input type="number" min="1" step="1" value="0" id="lentosPlotis">
+            <span class="error">Lentos plotis negali būti lygus nuliui arba neigiamas..</span>
+        </div>
+        <div class="input-wrapper">
+            <label for="lentosGylis">Lentos gylis (cm):</label>
+            <input type="number" min="1" step="1" value="0" id="lentosGylis">
+            <span class="error">Lentos gylis negali būti lygus nuliui arba neigiamas.</span>
+        </div>
+        <div class="input-wrapper">
+            <label for="lentuKiekis">Užsakymų kiekis:</label>
+            <input type="number" min="0" step="1" value="0" id="lentuKiekis">
+            <span class="error">Užsakymų skaičius negali būti neigiamas.</span>
+        </div>
+        <button id="calculate">Skaičiuoti</button>
+        <button id="reset">Iš naujo</button>
+    </div>
+
+    <div class="calc-wrapper block-wrapper">
+        <h2>Skaičiavimai</h2>
+        <div id="results">
+            <p>Įveskite užsakymo informaciją</p>
+        </div>
+    
+</body>
+</html>
